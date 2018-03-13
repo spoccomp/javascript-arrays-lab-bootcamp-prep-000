@@ -38,7 +38,7 @@ function removeLastKitten(){
   //const newAddArray = kittens.pop();
   //return newAddArray;
   //return kittens.pop();
-  const newAddArray = kittens.slice(1,2);
+  const newAddArray = kittens.slice(3);
   return newAddArray;
 }
 function removeFirstKitten(){
