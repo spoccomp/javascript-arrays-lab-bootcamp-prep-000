@@ -40,7 +40,8 @@ function removeLastKitten(){
   //return kittens.pop();
   //const newAddArray = kittens.slice(3);
   //return newAddArray;
-  return kittens.slice(3);
+	return kittens.slice(0, iceCreams.length - 1) 
+  //return kittens.slice(3);
 }
 function removeFirstKitten(){
   //removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
