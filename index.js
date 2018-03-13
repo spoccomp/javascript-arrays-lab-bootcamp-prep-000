@@ -23,7 +23,7 @@ function appendKitten(name){
   //appends add to end, a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
   //const newAddArray = kittens.push(name); //[name, ...kittens];
   //return newAddArray;
-  return kittens.push(name);
+  return [name, ...kittens];
 }
 function prependKitten(name){
   //prepends adds to beginning, a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
