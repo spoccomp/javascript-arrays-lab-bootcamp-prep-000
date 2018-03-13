@@ -21,21 +21,25 @@ function destructivelyRemoveFirstKitten(){
 }
 function appendKitten(name){
   //appends add to end, a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
-  const newAddArray = kittens.push(name); //[name, ...kittens];
-  return newAddArray;
+  //const newAddArray = kittens.push(name); //[name, ...kittens];
+  //return newAddArray;
+  return kittens.push(name);
 }
 function prependKitten(name){
   //prepends adds to beginning, a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
-  const newAddArray = kittens.unshift(name);
-  return newAddArray;
+  //const newAddArray = kittens.unshift(name);
+  //return newAddArray;
+  return kittens.unshift(name);
 }
 function removeLastKitten(){
   //removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
-  const newAddArray = kittens.pop();
-  return newAddArray;
+  //const newAddArray = kittens.pop();
+  //return newAddArray;
+  return kittens.pop();
 }
 function removeFirstKitten(){
   //removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
-  const newAddArray = kittens.shift();
-  return newAddArray;
+  //const newAddArray = kittens.shift();
+  //return newAddArray;
+  return kittens.shift();
 }
