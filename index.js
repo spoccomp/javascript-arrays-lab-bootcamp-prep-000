@@ -37,11 +37,15 @@ function removeLastKitten(){
   //removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
   //const newAddArray = kittens.pop();
   //return newAddArray;
-  return kittens.pop();
+  //return kittens.pop();
+  const newAddArray = kittens.slice(-1);
+  return newAddArray
 }
 function removeFirstKitten(){
   //removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged
   //const newAddArray = kittens.shift();
   //return newAddArray;
-  return kittens.shift();
+  //return kittens.shift();
+  const newAddArray = kittens.slice(1);
+  return newAddArray;
 }
