@@ -30,7 +30,8 @@ function prependKitten(name){
   //prepends adds to beginning, a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
   //const newAddArray = kittens.unshift(name);
   //return newAddArray;
-  return kittens.unshift(name);
+  //return kittens.unshift(name);
+  return [name, ...kittens];
 }
 function removeLastKitten(){
   //removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged
